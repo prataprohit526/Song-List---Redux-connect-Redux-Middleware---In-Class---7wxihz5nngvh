@@ -6,8 +6,8 @@ import { createStore } from "redux";
 import reducers from "./reducers/index.js";
 
 ReactDOM.render(
-    <Provider store={createStore(reducers)}>
-        <App />
-    </Provider>,
-    document.getElementById("root")
+  <Provider store={createStore(reducers)}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
 );
